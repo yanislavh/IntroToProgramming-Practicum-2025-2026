@@ -1,2 +1,5 @@
-# IntroToProgramming-Practicum-2025-2026
-Repository for the practicum exercises of the Introduction to Programming course (2025–2026)
+# Увод в програмирането - практикум, специалност ИС, група 3
+
+1. Основи на програмирането на C++: синтаксис, променливи, типове данни и оператори
+
+
