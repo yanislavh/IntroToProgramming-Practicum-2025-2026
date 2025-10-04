@@ -9,11 +9,11 @@ This guide explains how to fork a repository, add files, and submit a Pull Reque
 1. Open the repository you want to contribute to.
 2. Click **Fork** in the top-right corner.
 
-   *![Fork button](../Tutorials/Images/Capture.png)*
+   ![Fork button](./Images/Capture.PNG)
 3. Optionally, rename your forked repo.
 4. Click **Create fork**.
    
-    *![Create Fork](../Tutorials/Images/Capture2.png)*
+   ![Create Fork](./Images/Capture2.PNG)
 
 ---
 
@@ -23,9 +23,9 @@ This guide explains how to fork a repository, add files, and submit a Pull Reque
 2. Navigate to the folder where you want to add files.
 3. Click **Add file → Upload files**.
 
-      *![Add file](../Tutorials/Images/Capture3.png)*
+      ![Add file](./Images/Capture3.PNG)
 
-      *![Upload files](../Tutorials/Images/Capture4.png)*
+      ![Upload files](./Images/Capture4.PNG)
 
 4. Upload your `.cpp` files from your local machine.
 
@@ -34,8 +34,8 @@ This guide explains how to fork a repository, add files, and submit a Pull Reque
 6. Click **Commit changes**.
 
 
- *![Commit](../Tutorials/Images/Capture5.png)*
- *![Commit](../Tutorials/Images/Capture6.png)*
+ ![Commit](./Images/Capture5.PNG)
+ ![Commit](./Images/Capture6.PNG)
 
 ---
 
@@ -44,7 +44,7 @@ This guide explains how to fork a repository, add files, and submit a Pull Reque
 
 1. In your forked repository, click **Contribute → Open Pull Request**.
  
- *![Open PR](../Tutorials/Images/Capture7.png)*
+ ![Open PR](./Images/Capture7.PNG)
 
 
 2. Add a PR title in the format:
@@ -58,7 +58,7 @@ This guide explains how to fork a repository, add files, and submit a Pull Reque
    * Your group number
 4. Click **Create Pull Request**.
  
- *![Create PR](../Tutorials/Images/Capture8.png)*
+ ![Create PR](./Images/Capture8.PNG)
 
 
 5. Wait for review and approval.
