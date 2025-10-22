@@ -75,14 +75,26 @@ int main()
     std::cin >> x >> y;
 
     if (x > 2)
+    {
         if (y > 4)
+        {
             std::cout << "yes";
+        }
         else
+        {
             std::cout << "no";
+        }
+    }
+
     std::cout << "end";
 }
 
 ```
+
+<details>
+ <summary>Обяснение: </summary>
+Отговор: yesend
+</details>
 
 4. Какво ще отпечата следния код при вход grade = 4?
 ```cpp
@@ -103,7 +115,16 @@ int main()
         default: std::cout << "done";
     }
 }
-```  
+```
+<details>
+ <summary>Обяснение: </summary>
+ 
+Отговор:
+good very good excellent done
+
+При вход grade = 4, програмата влиза в съответния case 4: и отпечатва "good ".
+Тъй като след него няма оператор break;, изпълнението продължава последователно през всички следващи случаи (case 5, case 6 и default), като отпечатва и техните съобщения.
+</details>
 
 Практически задачи:
 ---
