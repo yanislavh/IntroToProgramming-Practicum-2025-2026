@@ -336,7 +336,7 @@ No such a number!
 ```
 Изход:
 ```
-Is even: true
+Is even: false
 Sum of digits: 6
 Prod of digits: 4
 Is Palindrome: true
@@ -347,10 +347,11 @@ Is Palindrome: true
 ```
 Изход:
 ```
-Is even: false
+Is even: true
 Sum of digits: 10
 Prod of digits: 24
 Is Palindrome: false
 ```
 ---------------------------------------------------------
+
 
