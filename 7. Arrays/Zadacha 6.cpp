@@ -1,0 +1,44 @@
+#include <iostream>
+
+void getArray(int arr[], size_t size)
+{
+	for (size_t i = 0; i < size; i++)
+	{
+		std::cin >> arr[i];
+	}
+}
+
+int checkInverse(int arr[], size_t size)
+{
+	int count = 0;
+	for (size_t i = 0; i < size; i++)
+	{
+		for (size_t j = i+1; j < size; j++)
+		{
+			if (arr[i] > arr[j]) count++;
+		}
+	}
+	return count;
+}
+
+
+
+int main()
+{
+	const size_t SIZE_OF_ARRAY = 256;
+
+	unsigned countOfElements;
+
+	do {
+		std::cout << "Enter array: ";
+		std::cin >> countOfElements;
+	} while (countOfElements < 1 || countOfElements> SIZE_OF_ARRAY);
+
+	int arr[SIZE_OF_ARRAY];
+
+	getArray(arr, countOfElements);
+
+	std::cout <<std::endl;
+	std::cout << checkInverse(arr, countOfElements);
+	std::cout << std::endl;
+}
